@@ -3,8 +3,9 @@
 #
 
 provider "aws" {
-  region  = "us-west-2"
-  version = ">= 2.38.0"
+  region                    = "us-east-1"
+  version                   = ">= 2.38.0"
+  shared_credentials_file   = "/Users/jay.kannaiyan/.aws/credentials"
 }
 
 # Using these data sources allows the configuration to be
